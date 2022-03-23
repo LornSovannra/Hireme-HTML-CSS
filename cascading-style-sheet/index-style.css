@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+nav div:nth-child(2)
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-menu{
+    display: flex;
+    list-style: none;
+}
+
+#nav-menu li{
+    padding: 0 10px;
+    vertical-align: bottom;
+}
+
+#nav-menu li:nth-child(1)
+{
+    text-decoration: underline 1px solid #00b4d8;
+}
+
+#nav-menu-main{
+    color: #00b4d8;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#nav-menu-sub{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#nav-menu a:hover
+{
+    color: #00b4d8;
+}
+
+#brand-name{
+    font-size: 22px;
+    font-family: Impact;
+    letter-spacing: 1px;
+}
+
+#get-an-estimate-button
+{
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s;
+    padding: 5px 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(0, 102, 255));
+}
+
+#get-an-estimate-button:hover
+{
+    opacity: .7;
+}
+
+#get-an-estimate-button a
+{
+    color: white;
+    padding: 5px 10px;
+}
+
+#header-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-section div:nth-child(1)
+{
+    flex: 1;
+}
+
+#header-section div:nth-child(2)
+{
+    flex: 1;
+}
+
+#introduce-main{
+    margin-left: 40px;
+}
+
+#introduce-main div:not(:nth-child(4))
+{
+    margin: 10px 0;
+}
+
+#introduce-main button
+{
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    transition: .3s;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(0, 102, 255));
+}
+
+#introduce-main button:hover
+{
+    opacity: .7;
+}
+
+#header-section h3
+{
+    color: #00b4d8;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+#header-section h2
+{
+    color: #1d3557;
+    font-size: 35px;
+    font-family: Verdana;
+}
+
+#header-section p
+{
+    color: black;
+    font-size: 18px;
+    font-family: "Khemr OS Battambang";
+    width: 95%;
+}
+
+#header-section img{
+    width: 100%;
+}
+
+#section-0{
+    padding: 100px 0;
+    background: goldenrod;
+}
+
+#what-we-do{
+    display: flex;
+    align-items: center;
+}
+
+#what-we-do img{
+    width: 100%;
+}
+
+#what-we-do-image{
+    flex: 1;
+}
+
+#what-we-do-detail{
+    flex: 1;
+}
+
+#what-we-do-detail div{
+    padding: 10px 0;
+}
+
+#what-we-do-detail-sub-header h3{
+    color: #003566;
+    font-size: 25px;
+    font-family: Verdana;
+}
+
+#what-we-do-detail-header h1{
+    color: white;
+    font-size: 35px;
+    font-family: Verdana;
+}
+
+#what-we-do-detail-par p{
+    color: black;
+    font-size: 18px;
+    font-family: "verdana";
+    width: 95%;
+}
+
+#what-we-do-detail-more a{
+    color: white;
+    font-size: 16px;
+    font-family: verdana;
+    text-decoration: underline 2px solid white;
+    transition: .5s;
+}
+
+#what-we-do-detail-more a:hover{
+    color: black;
+}
+
+#section-1
+{
+    padding: 80px 0;
+    background: #4895ef;
+}
+
+#section-1 div:nth-child(1)
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#service-we-provide h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+#service-we-provide p
+{
+    color: white;
+    opacity: .98;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#web-pros
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+#web-pros img
+{
+    width: 50%;
+    border-radius: 50%;
+}
+
+#layous
+{
+    text-align: center;
+}
+
+#responsive
+{
+    text-align: center;
+    border-bottom: 2px solid #ffb703;
+}
+
+#layouts p, #responsive p, #optimize p{
+    margin: 0 0 30px 0;
+}
+
+#optimize
+{
+    text-align: center;
+}
+
+#web-pros p
+{
+    color: white;
+}
+
+#web-pros-header p
+{
+    font-size: 20px;
+}
+
+#web-pros-par p
+{
+    font-size: 17px;
+    width: 85%;
+    margin: 0 auto 40px auto;
+}
+
+#section-2{
+    padding: 80px 0;
+    background: white;
+}
+
+#stay-connect-header{
+    text-align: center;
+    padding: 20px 0;
+    color: #0968f7;
+    font-size: 25px;
+}
+
+#stay-connect-header-connect{
+    color: #00b4d8;
+}
+
+#stay-connect-par{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto 0 auto;
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+}
+
+#way-to-stay-connect{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#way-to-stay-connect input{
+    border: 1px solid #00b4d8;
+    padding: 10px 20px;
+    margin: 2.5px 0;
+    width: 350px;
+}
+
+#way-to-stay-connect textarea{
+    border: 1px solid #00b4d8;
+    width: 745px;
+    height: 200px;
+    padding: 10px 20px;
+    margin: 2.5px 0;
+}
+
+#way-to-stay-connect button{
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s;
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: none;
+    border-top-left-radius: 5px;
+    background: linear-gradient(to right, rgb(0, 4, 255), rgb(0, 102, 255));
+}
+
+#way-to-stay-connect button:hover{
+    opacity: .8;
+}
+
+footer{
+    /* background: #4895ef; */
+    background: linear-gradient(to bottom right, rgb(0, 140, 255), rgb(0, 4, 255));
+}
+
+#footer-detail{
+    display: flex;
+    padding: 80px 0;
+    align-items: baseline;
+}
+
+#footer-detail div:nth-child(1){
+    flex: 2;
+}
+
+#footer-detail div{
+    flex: 1;
+    padding: 0 10px;
+}
+
+#footer-detail-brand-name div{
+    padding: 10px 0 ;
+}
+
+#footer-detail-brand-name h1{
+    color: white;
+    font-size: 40px;
+}
+
+#footer-detail-brand-name p{
+    color: white;
+    font-size: 16px;
+}
+
+#footer-detail-site-map-header{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+#footer-detail-services-header{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+#footer-detail-contact-us-header{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+#footer-detail-site-map-ul li{
+    padding: 2px 0;
+    color: #00d9ff;
+}
+
+#footer-detail-services-ul li{
+    padding: 2px 0;
+    color: #00d9ff;
+}
+
+#footer-detail-contact-us-ul li{
+    padding: 5px 0;
+    list-style: none;
+}
+
+#footer-detail-site-map-ul a{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#footer-detail-services-ul a{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#footer-detail-contact-us-ul p{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+#copy-right-detail{
+    padding: 20px 0;
+    border-top: 1px solid #ced4da;
+}
+
+#copy-right-detail div{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#copy-right-detail a{
+    color: #00d9ff;
+    font-family: verdana;
+}
+
+.fa-map-marker, .fa-phone-alt, .fa-envelope{
+    font-size: 18px;
+}
